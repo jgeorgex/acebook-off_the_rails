@@ -1,4 +1,9 @@
-language: ruby
 rvm:
- - 2.6.3p62
- - jruby
+  - 2.6.3
+script:
+  - bundle exec rspec spec
+
+# language: ruby
+# rvm:
+#  - 2.6.3p62
+#  - jruby
